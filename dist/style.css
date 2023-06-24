@@ -5,9 +5,9 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgba(40,40,40,0.95);
   color: #fff;
-  padding: 20px;
+  padding: 1.2rem 0 0 0;
   text-align: center;
 }
 
@@ -63,5 +63,27 @@ header {
   border-radius: 1rem;
 }
 
+.tab-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0;
+  padding: 0;
+}
 
+.tab-list > li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  border-width: 0 0 2px 0;
+}
 
+.tab-list > li.selected {
+  border: 2px solid #fff;
+  border-bottom: 0;
+}
+
+.tab-list >li.spacer {
+  flex-grow: 1;
+}
