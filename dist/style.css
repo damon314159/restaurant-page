@@ -11,34 +11,36 @@ header {
   text-align: center;
 }
 
-.info-container {
-  color: #fff;
-  max-height: 60vh;
-  height: 700px;
-  max-width: 700px;
-  margin: 20px auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.chef-img {
-  height: 500px;
-  width: auto;
-  max-height: 60%;
-  max-width: 100%;
-  border-radius: 50%;
-}
-
-.header-title,
-.about-title {
+.header-title {
   margin: 1rem;
   font-size: 28px;
   color: #fff;
 }
 
-.about-text {
-  margin-top: 20px;
-  font-size: 1.5rem;
+.tab-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-list > li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  border-width: 0 0 2px 0;
+}
+
+.tab-list > li.selected {
+  border: 2px solid #fff;
+  border-bottom: 0;
+  background-color: rgba(60,60,60,0.95);
+}
+
+.tab-list >li.spacer {
+  flex-grow: 1;
 }
 
 .background-image {
@@ -61,29 +63,4 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   border-radius: 1rem;
-}
-
-.tab-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  margin: 0;
-  padding: 0;
-}
-
-.tab-list > li {
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  border: 2px solid #fff;
-  border-width: 0 0 2px 0;
-}
-
-.tab-list > li.selected {
-  border: 2px solid #fff;
-  border-bottom: 0;
-}
-
-.tab-list >li.spacer {
-  flex-grow: 1;
 }
