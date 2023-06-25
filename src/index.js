@@ -1,7 +1,9 @@
 import "./style.css";
 import "./home.css";
 import chefImg from "./imgs/chef.jpg"
+import indexHtml from "./index-template.html"
 
+document.body.insertAdjacentHTML("beforeend", indexHtml);
 const contentWrapper = document.querySelector(".content-wrapper");
 
 const homeTab = (()=>{
