@@ -1,0 +1,29 @@
+.menu-container {
+  color: #fff;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.menu-title {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  margin: 2rem 0;
+}
+
+.menu-section {
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+
+.menu-section li {
+  list-style: none;
+  padding-bottom: 1.5rem;
+}
+
+.menu-section p {
+  margin: 0;
+}
